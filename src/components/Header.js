@@ -76,6 +76,7 @@ const Header = () => {
       top={0}
       left={0}
       right={0}
+      zIndex="sticky"
       translateY={0}
       transitionProperty="transform"
       transitionDuration=".3s"

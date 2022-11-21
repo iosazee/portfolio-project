@@ -30,7 +30,7 @@ const LandingSection = () => {
       comment: ''
     },
     onSubmit: (values) => {
-     submit("https: pete.com/comtactme", values);
+     submit("https://zee-portfolio-app.netlify.app/#contactme-section", values);
     },
     validationSchema: Yup.object().shape({
       firstName: Yup.string().required("Required"),
